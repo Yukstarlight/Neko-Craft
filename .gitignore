@@ -1,0 +1,35 @@
+# 构建产物
+dist/
+
+# 模组二进制：本地适配构建通过构建脚本从外部目录读取，不进入仓库
+mods/
+*.jar
+
+# 个人 / 运行时数据
+saves/
+logs/
+crash-reports/
+screenshots/
+resourcepacks/
+shaderpacks/
+server-resource-packs/
+options.txt
+servers.dat
+servers.dat_old
+usercache.json
+usernamecache.json
+hotbar.nbt
+patchouli_data.json
+patchouli_books/
+command_history.txt
+PCL/
+.cache/
+downloads/
+data/
+*-natives/
+.fabric/
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
